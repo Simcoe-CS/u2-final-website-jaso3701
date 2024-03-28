@@ -1,0 +1,25 @@
+body {
+    height: 120vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: minmax(90px) 1fr auto;
+    
+}
+header {
+    background-color: darkseagreen;
+    grid-column: 1/8;
+    
+}
+#s1{
+    background-color: indigo;
+}
+footer {
+    background-color: cornsilk;
+    grid-column: 1/span 3;
+}
+#s2{
+    background-color: azure;
+}
+#s3{
+    background-color: plum;
+}

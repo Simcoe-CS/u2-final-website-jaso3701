@@ -1,0 +1,25 @@
+body {
+    height: 120vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: minmax(90px) 1fr auto;
+    
+}
+header {
+    background-color: lightcoral;
+    grid-column: 1/8;
+    
+}
+#s1{
+    background-color: aqua;
+}
+footer {
+    background-color: brown;
+    grid-column: 1/span 3;
+}
+#s2{
+    background-color: blanchedalmond;
+}
+#s3{
+    background-color: skyblue;
+}
