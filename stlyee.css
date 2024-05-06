@@ -1,0 +1,46 @@
+.mainpage{
+    font-family: "Sofia", sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: black;
+}
+
+
+.maingrid{
+    font-family: "Trirong", serif;
+    text-align: center;
+    font-size: x-large;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 50%);
+}
+header{
+    background-color: beige;
+}
+
+
+.left {
+    font-family: "Trirong", serif;
+
+ }
+ .middle{
+    font-family: "Trirong", serif;
+ }
+ .right {
+    font-family: "Sofia", sans-serif;
+ }
+ 
+ .navlinks:hover{
+    background-color: yellow;
+    color: black;
+}
+
+ 
+.navlinks {
+    
+    padding: 5px;
+    text-decoration: none;
+
+}
